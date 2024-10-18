@@ -1,13 +1,4 @@
-select * from sharktank
 
-truncate  table sharktank
-
-LOAD DATA INFILE "E:/CampusX/sharktank.csv"
-INTO TABLE sharktank
-FIELDS TERMINATED BY ','
-OPTIONALLY ENCLOSED BY '"'
-LINES TERMINATED BY '\r\n'
-IGNORE 1 ROWS;
 
 
 select * from sharktank
